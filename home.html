@@ -12,22 +12,15 @@
     <title>My second website</title>
   </head>
   <body>
-    <h2>Hello from my ass</h2>
-
-    <p>my superhero is <abbr title="my favorite hero">IRONMAN</abbr></p>
-
-    <p>I wan't to go to <mark>Japan</mark></p>
-
-    <p><strong>banana</strong> is a healthy food</p>
-
-    <p>just like nike slogon <code>JUST DOIT</code></p>
-
-    <p><sub>banana</sub> is a healthy food</p>
-
-    <p><sup>banana</sup> is a healthy food</p>
-
-    <p>2<sup>5</sup></p>
-
-    <audio controls autoplay loop src="/media/cc0-audio/t-rex-roar.mp3"></audio>
+    <form>
+      <input type="color" />
+      <input type="file" accept=".png, .pdf, .jpg, audio/*, video/*, image/*" />
+      <input required placeholder="Name" type="text" />
+      <input required placeholder="Last Name" type="text" />
+      <input required placeholder="Email" type="email" />
+      <input required placeholder="Password" minlength="10" type="password" />
+      <input type="submit" value="Registor User" />
+      <input type="range" min="0" value="1" max="2" step="0.1" />
+    </form>
   </body>
 </html>
