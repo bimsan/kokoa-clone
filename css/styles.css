@@ -1,0 +1,6 @@
+@import "reset.css";
+@import "status-bar.css";
+
+body {
+  font-family: "Playfair Display", serif;
+}
