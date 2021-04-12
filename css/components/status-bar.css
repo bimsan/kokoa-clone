@@ -18,34 +18,3 @@
 .fas.fa-wifi {
   margin: 0 6px;
 }
-
-.welcome-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
-}
-
-.welcome-header__title {
-  font-size: 30px;
-}
-
-.welcome-header__subtitle {
-  font-size: 15px;
-  margin-top: 25px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin-top: 100px;
-  width: 60%;
-}
-
-input {
-}
-
-input:not(:last-child) {
-  margin-bottom: 20px;
-}

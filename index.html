@@ -34,15 +34,15 @@
     <header class="welcome-header">
       <h2 class="welcome-header__title">Welcome to Attack On Titan</h2>
       <p class="welcome-header__subtitle">
-        You can't login unless you fight. So login right now.
+        You can't login unless you fight. Login right now.
       </p>
     </header>
-    <form>
-      <input type="text" placeholder="Email" />
-      <input type="text" placeholder="Password" />
+    <form action="friends.html" method="GET" id="login-form">
+      <input required name="userId" type="email" placeholder="Email" />
+      <input required name="userPassword" type="text" placeholder="Password" />
       <input type="submit" value="Join" />
       <input type="submit" value="Login" />
-      <a href="#">Go to coordinates to find ID</a>
+      <a href="#">move to coordinates to find ID</a>
     </form>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
