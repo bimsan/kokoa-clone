@@ -1,4 +1,8 @@
 .nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
   background-color: #b4b4b4;
   padding: 20px 50px;
 }
